@@ -1,0 +1,11 @@
+.git
+.gitignore
+backend/.env
+backend/.deps
+backend/__pycache__
+backend/server.log
+backend/server.err
+**/__pycache__
+**/*.pyc
+node_modules
+.DS_Store

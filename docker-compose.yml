@@ -1,0 +1,10 @@
+services:
+  threat-lab-backend:
+    build: .
+    container_name: threat-lab-backend
+    ports:
+      - "8000:8000"
+    env_file:
+      - backend/.env
+    environment:
+      - PORT=8000
